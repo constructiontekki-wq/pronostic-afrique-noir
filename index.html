@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Pronostic Afrique Noir</title>
+
+<style>
+
+body{
+font-family:Arial;
+text-align:center;
+background:#111;
+color:white;
+}
+
+.box{
+margin-top:50px;
+}
+
+textarea{
+width:300px;
+height:120px;
+}
+
+button{
+padding:10px;
+margin:10px;
+font-size:16px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1>PRONOSTIC AFRIQUE NOIR</h1>
+
+<h3>Application IA de Pronostics</h3>
+
+<div class="box">
+
+<p>Colle ton match ici :</p>
+
+<textarea placeholder="Exemple: Lakers vs Boston"></textarea>
+
+<br>
+
+<button onclick="chatgpt()">Analyse ChatGPT</button>
+
+<button onclick="gemini()">Analyse Gemini</button>
+
+<button onclick="perplexity()">Analyse Perplexity</button>
+
+</div>
+
+<script>
+
+function chatgpt(){
+window.open("https://chat.openai.com")
+}
+
+function gemini(){
+window.open("https://aistudio.google.com")
+}
+
+function perplexity(){
+window.open("https://perplexity.ai")
+}
+
+</script>
+
+</body>
+
+</html>
